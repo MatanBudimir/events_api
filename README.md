@@ -7,6 +7,7 @@ How to build and run the API?ž
 4. SSH into the database container called `db` and follow the next steps:
     - mysql -u root -p
     - enter the password
+    - run `use api`
     - copy and paste the content of api.sql file
 5. After that's done send requests using Postman or any other client of choice
 6. URLs and example request bodies for Postman are available in [postman_example.md](https://github.com/MatanBudimir/events_api/blob/main/postman_example.md)
